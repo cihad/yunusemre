@@ -248,7 +248,7 @@ h3 {
 
 .list-2 {
   display: block;
-  margin-top: 21px;
+  margin-top: 10px;
   float: right;
 }
 
@@ -299,6 +299,10 @@ h3 {
   direction: rtl;
 }
 
+.rich-text-block {
+  text-align: right;
+}
+
 @media (max-width: 991px) {
   .language-selection {
     margin-top: 0px;
@@ -323,6 +327,7 @@ h3 {
     display: none;
   }
   .site-name {
+    margin-right: 10px;
     line-height: 60px;
   }
   .icon {
