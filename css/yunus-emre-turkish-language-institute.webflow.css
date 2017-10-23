@@ -1,0 +1,370 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 400;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.logo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1000;
+  display: block;
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  border: 5px solid #18a4b6;
+  border-radius: 100%;
+  background-color: #fff;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.logo:hover {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.list {
+  width: 600px;
+  margin-top: 5px;
+  margin-left: -5px;
+  padding-left: 0px;
+}
+
+.list-item {
+  display: inline-block;
+  margin-top: 7px;
+  padding: 10px 20px 10px 40px;
+  float: left;
+  clear: left;
+  background-color: rgba(243, 128, 0, .82);
+  -webkit-transform: skew(-18deg, 0deg);
+  -ms-transform: skew(-18deg, 0deg);
+  transform: skew(-18deg, 0deg);
+  color: #fff;
+  font-size: 18px;
+  list-style-type: none;
+}
+
+.body {
+  background-color: #fffff1;
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, .91), hsla(0, 0%, 100%, .91)), url('../images/bc93fshutterstock_188800877-islami-tarz-altin-renkli-yildiz-desen-vektorel.jpg');
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .91), hsla(0, 0%, 100%, .91)), url('../images/bc93fshutterstock_188800877-islami-tarz-altin-renkli-yildiz-desen-vektorel.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, 347px;
+}
+
+.header {
+  position: relative;
+  background-color: #18a4b6;
+}
+
+.section-2 {
+  margin-top: 30px;
+}
+
+.language-selection {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  float: right;
+}
+
+.language-list-item {
+  display: inline-block;
+  color: #fff;
+  list-style-type: none;
+}
+
+.language-list-item.w--current {
+  color: #ffcd4c;
+}
+
+.navbar {
+  background-color: #18a4b6;
+}
+
+.site-name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: left;
+  color: #fff;
+  font-size: 22px;
+  line-height: 100px;
+}
+
+.card-block {
+  display: block;
+  margin-bottom: 25px;
+  padding-top: 123px;
+  text-decoration: none;
+}
+
+.card-block.for-child {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/arab-childs.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/arab-childs.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.card-block.for-family {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/arab-family.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/arab-family.jpg');
+  background-size: auto, cover;
+}
+
+.card-block.for-exam {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('../images/499509690.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('../images/499509690.jpg');
+  background-position: 0px 0px, 50% 100%;
+  background-size: auto, cover;
+}
+
+.card-block.for-consultant {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/539453144.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/539453144.jpg');
+  background-position: 0px 0px, 50% 84%;
+  background-size: auto, cover;
+}
+
+.card-block.for-interpreter {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/545368188.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/545368188.jpg');
+  background-position: 0px 0px, 50% 100%;
+  background-size: auto, cover;
+}
+
+.card-block.for-academy {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('../images/587536078.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('../images/587536078.jpg');
+  background-position: 0px 0px, 50% 100%;
+  background-size: auto, auto;
+}
+
+.for-child {
+  background-image: url('../images/arab-childs.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.card-text {
+  padding: 10px;
+  background-color: rgba(245, 247, 248, .76);
+  color: #030303;
+  text-decoration: none;
+}
+
+.mini-logo {
+  display: none;
+  width: 65px;
+  margin-top: 16px;
+  margin-right: 15px;
+  padding: 5px;
+  float: left;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.slide-istanbul {
+  background-image: -webkit-linear-gradient(270deg, rgba(255, 248, 168, .5), rgba(255, 248, 168, .5)), url('../images/istanbul.jpg');
+  background-image: linear-gradient(180deg, rgba(255, 248, 168, .5), rgba(255, 248, 168, .5)), url('../images/istanbul.jpg');
+  background-size: auto, cover;
+}
+
+.section-header {
+  border-bottom: 1px solid #bb6f02;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #126873;
+  color: #ededed;
+}
+
+.telephones-secton {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  background-color: rgba(208, 110, 0, .68);
+  color: #fff;
+}
+
+.tel-column {
+  -webkit-transform: skew(-15deg, 0deg);
+  -ms-transform: skew(-15deg, 0deg);
+  transform: skew(-15deg, 0deg);
+}
+
+.tel-column.mddle-tel {
+  border-right: 5px solid #fff;
+  border-left: 5px solid #fff;
+  background-color: rgba(176, 103, 22, .68);
+}
+
+.tel {
+  padding: 20px 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-3 {
+  margin-top: 20px;
+}
+
+.slide-riyadh {
+  background-image: url('../images/saudiarabia14666707802123615750.jpg');
+  background-position: 0px 50%;
+  background-size: cover;
+}
+
+.list-2 {
+  display: block;
+  margin-top: 21px;
+  float: right;
+}
+
+.list-item-2 {
+  display: inline-block;
+  max-width: 500px;
+  min-width: 100px;
+  margin-top: 7px;
+  padding: 10px 20px;
+  float: right;
+  clear: right;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(153, 60, 72, .82);
+  -webkit-transform: skew(-8deg, 0deg);
+  -ms-transform: skew(-8deg, 0deg);
+  transform: skew(-8deg, 0deg);
+  color: #fff;
+  font-size: 18px;
+  list-style-type: none;
+}
+
+.ar-float-right {
+  float: right;
+  direction: rtl;
+}
+
+.ar-float-left {
+  float: left;
+  direction: rtl;
+}
+
+.ar-text {
+  direction: rtl;
+}
+
+@media (max-width: 991px) {
+  .language-selection {
+    margin-top: 0px;
+    background-color: #157c89;
+    text-align: right;
+  }
+  .icon {
+    color: #fff;
+    line-height: 100px;
+  }
+  .menu-button {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .menu-button.w--open {
+    background-color: #157c89;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo {
+    display: none;
+  }
+  .site-name {
+    line-height: 60px;
+  }
+  .icon {
+    line-height: 60px;
+  }
+  .mini-logo {
+    display: block;
+    width: 46px;
+    margin-top: 7px;
+  }
+  .footer {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .tel-column {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+  .tel-column.mddle-tel {
+    border-right-width: 0px;
+    border-left-width: 0px;
+  }
+}
+
+@media (max-width: 479px) {
+  .list-item {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .site-name {
+    font-size: 18px;
+  }
+  .mini-logo {
+    display: none;
+  }
+  .map {
+    margin-bottom: 10px;
+  }
+  .list-item-2 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
