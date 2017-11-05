@@ -352,6 +352,10 @@ h3 {
   align-items: stretch;
 }
 
+.banner-text {
+  font-size: 24px;
+}
+
 @media (max-width: 991px) {
   .language-selection {
     margin-top: 0px;
