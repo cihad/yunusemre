@@ -360,6 +360,10 @@ h3 {
   float: right;
 }
 
+.mb-25 {
+  margin-bottom: 25px;
+}
+
 @media (max-width: 991px) {
   .language-selection {
     margin-top: 0px;
